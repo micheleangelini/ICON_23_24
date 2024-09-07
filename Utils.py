@@ -15,7 +15,7 @@ def graficoPredizioni(y_train, y_test, trainPrediction, testPrediction):
     axes[1].set_ylabel("Valori predetti della variabile di risposta (test)")
     plt.show()
 
-# funzione valutazione modello
+# funzione per valutazione modello
 def valutazioneModello(y_train, y_test, trainPrediction, testPrediction):
     print()
     print("[TRAIN] MSE:", round(mean_squared_error(y_train, trainPrediction), 4))

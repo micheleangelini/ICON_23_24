@@ -4,8 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from Utils import *
 
-from sklearn.metrics import root_mean_squared_error, mean_absolute_error
-
 listingsProcessedDF = pd.read_csv('../datasets/listingsProcessed.csv')
 
 # Separazione delle variabili predittive e risposta in X e y
